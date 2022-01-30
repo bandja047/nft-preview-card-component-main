@@ -18,7 +18,7 @@ body{
     font-size: 15px;
     font-family: 'Outfit';
     color:hsl(215, 51%, 70%) ;
-    overflow: hidden;
+   
 }
 main{
     
@@ -105,6 +105,8 @@ h1:hover, .author:hover{
     cursor: pointer;
 }
 .avatar{
+    
+    display: flex;
     background-color: hsl(0, 0%, 100%);
     border-radius: 18px;
 }
