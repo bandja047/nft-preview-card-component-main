@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/*$soft-lue : hsl(215, 51%, 70%);
+$Cyan: hsl(178, 100%, 50%);
+$main-bg : hsl(217, 54%, 11%);
+$card-bg : hsl(216, 50%, 16%);
+$line: hsl(215, 32%, 27%);
+$white: hsl(0, 0%, 100%);*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Outfit';
+    color:hsl(215, 51%, 70%) ;
+    overflow: hidden;
+}
+main{
+    
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.card{
+    width: 300px;
+    
+    padding: 16px;
+    background-color:hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    gap: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px
+}
+.img-header{
+    
+    width: 100%;
+    border-radius: 12px;
+    
+}
+
+h1{
+    color:hsl(0, 0%, 100%);
+
+}
+
+span{
+    padding-left: 5px;
+}
+.euther-details{
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px
+}
+.euther-details>div{
+    display: flex;
+}
+
+hr{
+    width:100%;
+    height: 0.1px;
+    border-color:  hsl(215, 32%, 27%);
+}
+
+.card-footer{
+    width: 100%;
+   
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px
+}
+
+.author{
+    color: hsl(0, 0%, 100%);
+}
+
+h1:hover, .author:hover{
+    color: hsl(178, 100%, 50%) ;
+    cursor: pointer;
+}
+.avatar{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 18px;
+}
+.euther-price{
+    color:hsl(178, 100%, 50%);
+}
